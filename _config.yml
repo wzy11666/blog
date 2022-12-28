@@ -72,7 +72,7 @@ archive_generator: #归档页的配置
 tag_generator:
   per_page: 20 #标签页每页博客数
   
-theme: next #选择博客主题，名字为themes中选择的主题文件夹名称
+theme: hexo-theme-next #选择博客主题，名字为themes中选择的主题文件夹名称
 
 
 
