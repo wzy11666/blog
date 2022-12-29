@@ -1,8 +1,8 @@
 ---
 title: 学习node--大事件后台API项目
 date: 
-tags:
-cover:
+tags: node
+cover: https://img0.baidu.com/it/u=3439273511,894129038&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=299
 ---
 ## Headline
 

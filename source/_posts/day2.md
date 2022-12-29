@@ -1,8 +1,8 @@
 ---
 title: 学习vue--day2
 date: 
-tags:
-cover:
+tags: vue2
+cover: https://inews.gtimg.com/newsapp_bt/0/13843563168/641
 ---
 
 ### 推荐大家安装的 VScode 中的 Vue 插件

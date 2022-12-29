@@ -1,8 +1,8 @@
 ---
 title: 学习vue--webpack
 date: 
-tags:
-cover:
+tags: vue2
+cover: https://inews.gtimg.com/newsapp_bt/0/13843563168/641
 ---
 
 ### webpack的基本使用
