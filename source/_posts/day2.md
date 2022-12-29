@@ -2,7 +2,7 @@
 title: 学习vue--day2
 date: 
 tags: vue2
-cover: https://inews.gtimg.com/newsapp_bt/0/13843563168/641
+cover: https://img1.baidu.com/it/u=3184134450,3086545047&fm=253&fmt=auto&app=138&f=PNG?w=500&h=283
 ---
 
 ### 推荐大家安装的 VScode 中的 Vue 插件
