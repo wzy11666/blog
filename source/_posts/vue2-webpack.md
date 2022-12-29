@@ -2,7 +2,7 @@
 title: 学习vue--webpack
 date: 
 tags: vue2
-cover: https://img1.baidu.com/it/u=3184134450,3086545047&fm=253&fmt=auto&app=138&f=PNG?w=500&h=283
+cover: https://img-blog.csdnimg.cn/img_convert/7317cfdc09c001db6e695393104d0c1a.png
 ---
 
 ### webpack的基本使用
