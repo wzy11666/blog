@@ -8,15 +8,14 @@ cover: https://img-blog.csdnimg.cn/img_convert/7317cfdc09c001db6e695393104d0c1a.
 
 
 
-# 购物车案例
+## 购物车案例
 
 
 
- ## 实现步骤
 
 
 
-### 1.1 初始化项目基本结构
+### 初始化项目基本结构
 
 ####  vue-cli 的使用
 
@@ -47,7 +46,7 @@ App.vue 是项目的根组件。
 
 ![05](../img/05.jpg)
 
-### 1.2 封装 MyHeader 组件
+### 封装 MyHeader 组件
 
 ```  javascript
 <template>
@@ -71,7 +70,7 @@ export default {
 
 
 
-### 1.3 基于 axios 请求商品列表数据
+### 基于 axios 请求商品列表数据
 
 （ GET 请求，地址为 https://www.escook.cn/api/cart ）
 
@@ -173,7 +172,7 @@ export default {
 
 
 
-### 1.4 封装 MyGoods 组件
+### 封装 MyGoods 组件
 
 - 导入 注册Goods组件
 - 父向子传参：将axios请求内容传递给子组件
@@ -284,7 +283,7 @@ export default {
     }
 ```
 
-### 1.5 封装 MyFooter 组件
+### 封装 MyFooter 组件
 
 - 父组件全部选中--Footer组件复选框选中
 
@@ -372,7 +371,7 @@ methods: {
 
 
 
-### 1.6 封装 MyCounter 组件
+### 封装 MyCounter 组件
 
 - 兄弟组件传输
 
