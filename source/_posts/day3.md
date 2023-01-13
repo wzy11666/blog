@@ -1,5 +1,5 @@
 ---
-title: 学习vue--day3
+title: 学习vue--过滤器，侦听器，计算属性 
 date: 
 tags: vue2
 categories: vue

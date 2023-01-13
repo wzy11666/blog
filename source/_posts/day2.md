@@ -1,5 +1,5 @@
 ---
-title: 学习vue--day2
+title: 学习vue--数据绑定，事件绑定
 date: 
 tags: vue2
 categories: vue
