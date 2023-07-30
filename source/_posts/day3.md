@@ -4,7 +4,7 @@ date:
 tags: vue2
 categories: vue
 
-cover: https://img-blog.csdnimg.cn/img_convert/7317cfdc09c001db6e695393104d0c1a.png
+cover: ../img/vue.png
 ---
 
 ## 过滤器

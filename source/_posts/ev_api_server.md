@@ -3,7 +3,7 @@ title: 学习node--大事件后台API项目
 date: 
 tags: node
 categories: node
-cover: https://img.songma.com/wenzhang/20180710/dlcctbviegi2161.png
+cover: ../img/node.png
 ---
 ## Headline
 

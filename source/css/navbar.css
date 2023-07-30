@@ -1,34 +1,30 @@
-#body-wrap  #content-inner #aside-content .card-info{
-    /* background: linear-gradient(to right, #c2deeb, #e3bfd3, #dfdcbf, #cbe4ef);渐变色设置 */
-    /* background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%); */
-    /* background-size: 400%;设置大小，方便后续的流光效果 */
-    border-radius: 30px;
-    background-position: center;
-    background: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201911%2F02%2F20191102021118_eaume.thumb.700_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1676386396&t=8513f264a93e8eb78429aac8f80f69a5') no-repeat;
-    background-size: 300px;
-    color: aliceblue;
-    opacity: 0.9;
-    font-weight: 500;
-    /* font-size: 20px; */
+#body-wrap #content-inner #aside-content .card-info {
+  /* background: linear-gradient(to right, #c2deeb, #e3bfd3, #dfdcbf, #cbe4ef);渐变色设置 */
+  /* background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%); */
+  /* background-size: 400%;设置大小，方便后续的流光效果 */
+  border-radius: 30px;
+  background-position: center;
+  background: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201911%2F02%2F20191102021118_eaume.thumb.700_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1676386396&t=8513f264a93e8eb78429aac8f80f69a5') no-repeat;
+  background-size: 300px;
+  color: aliceblue;
+  opacity: 0.9;
+  font-weight: 500;
+  /* font-size: 20px; */
 }
 /* site-data is-center */
-#body-wrap  #content-inner #aside-content .card-info .site-data .headline,.length-num{
-    
-    color: aliceblue;
+#body-wrap #content-inner #aside-content .card-info .site-data .headline,
+.length-num {
+  color: aliceblue;
 }
-#body-wrap  #content-inner #aside-content .card-info .site-data .length-num{
-    
-    color: aliceblue;
+#body-wrap #content-inner #aside-content .card-info .site-data .length-num {
+  color: aliceblue;
 }
-#body-wrap  #content-inner #aside-content .card-info-social-icons .social-icon .fab {
-    
-    color: aliceblue;
-} 
-#body-wrap  #content-inner #aside-content .card-info-social-icons .social-icon .fas{
-    color: aliceblue;
-
+#body-wrap #content-inner #aside-content .card-info-social-icons .social-icon .fab {
+  color: aliceblue;
 }
-
+#body-wrap #content-inner #aside-content .card-info-social-icons .social-icon .fas {
+  color: aliceblue;
+}
 /* #body-wrap  #content-inner #aside-content .card-info::after{
     content: '';
     width: 100%;
@@ -46,6 +42,3 @@
 /* #aside-content 侧边栏 */
 /* .card-widget 自我介绍框 */
 /* #body-wrap  #content-inner #aside-content .card-widget:first-child */
-/* .cardHover, .error404 #error-wrap 
-.error-content, .layout > div:first-child:not(.recent-posts), #recent-posts 
-> .recent-post-item, #aside-content .card-widget, .layout > .recent-posts .pagination > *:not(.space) */

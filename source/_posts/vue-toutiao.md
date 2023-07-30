@@ -3,7 +3,7 @@ title: 学习vue--vue-黑马头条案例
 date: 
 tags: vue2
 categories: vue
-cover: https://img-blog.csdnimg.cn/img_convert/7317cfdc09c001db6e695393104d0c1a.png
+cover: ../img/vue.png
 ---
 ### 1.建立项目
 

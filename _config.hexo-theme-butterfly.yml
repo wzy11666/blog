@@ -528,7 +528,7 @@ tag_ui: # 留空或 index
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # background: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.huabanimg.com%2F23fb1c462e4a8bef61a68c1e169d0ef9409eb1bb1c6e2-XMb0FU_fw658&refer=http%3A%2F%2Fhbimg.huabanimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1674820119&t=e572b005a66d478017b9684767008532)
 # background: url(https://img0.baidu.com/it/u=992579947,1018319951&fm=253&fmt=auto&app=138&f=JPEG?w=1095&h=500)
-background: url(https://img2.baidu.com/it/u=438959714,495240248&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=270)
+background: url(./source/img/background.webp)
 
 # Footer Background
 footer_bg: true
@@ -650,7 +650,10 @@ subtitle:
 
 # Loading Animation (加載動畫)
 preloader:
-  enable: false
+  enable: true 
+  load_color: '#000000' # '#37474f'
+  load_style: wizard # default|gear|ironheart|scarecrow|triangles|wizard|image
+  load_image:  # url
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -889,9 +892,10 @@ css_prefix: true
 inject:
   head:
      - <link rel="stylesheet" href="https://npm.elemecdn.com/ethan4116-blog/lib/css/plane_v2.css">
-
-    
+  
+     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="/css/navbar.css">
+     - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/art_headerwave.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
@@ -923,7 +927,11 @@ CDN:
     # main:
     # utils:
     # translate:
-    # local_search:
+    local_search:
+     enable: true
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # 如果没有查到内容相关内容显示
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:

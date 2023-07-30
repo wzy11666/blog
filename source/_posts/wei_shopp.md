@@ -3,7 +3,7 @@ title: 学习微信小程序--小程序商城项目
 date: 
 tags: uni-app
 categories: uni-app
-cover: https://img0.baidu.com/it/u=2751205649,3771332885&fm=253&fmt=auto&app=138&f=PNG?w=602&h=355
+cover: ../img/xiaochengxu.webp
 ---
 
 
