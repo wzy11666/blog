@@ -3,7 +3,7 @@ title: 学习vue--webpack
 date: 
 tags: vue2
 categories: vue
-cover: ../img/webpack.webp
+cover: ../img/newwebpack.webp
 # swiper_index: 8 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
