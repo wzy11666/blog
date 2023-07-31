@@ -898,7 +898,7 @@ inject:
   head:
      - <link rel="stylesheet" href="https://npm.elemecdn.com/ethan4116-blog/lib/css/plane_v2.css">
     #  - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.7/tianli_gpt.css">  
-    #  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
+     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="/css/navbar.css">
      - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/art_headerwave.css">
