@@ -4,6 +4,7 @@ date:
 tags: node
 categories: node
 cover: ../img/node.png
+swiper_index: 4 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 ## Headline
 

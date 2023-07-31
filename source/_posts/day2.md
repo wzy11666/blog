@@ -3,8 +3,11 @@ title: 学习vue--数据绑定，事件绑定
 date: 
 tags: vue2
 categories: vue
-
 cover: ../img/vue.png
+description:    框架是一套现成的解决方案，程序员只能遵守框架的规范，去编写自己的业务功能！
+                要学习 vue，就是在学习 vue 框架中规定的用法！
+                vue 的指令、组件（是对 UI 结构的复用）、路由、Vuex、vue 组件库
+swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 ### 推荐大家安装的 VScode 中的 Vue 插件

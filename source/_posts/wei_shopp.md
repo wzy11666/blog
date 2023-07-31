@@ -4,6 +4,7 @@ date:
 tags: uni-app
 categories: uni-app
 cover: ../img/xiaochengxu.webp
+# swiper_index: 10 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 

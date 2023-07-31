@@ -94,29 +94,34 @@ disable_top_img: false
 index_img: /img/1920.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: /img/1920-1.jpg
 
 # The banner image of archive page
 archive_img: /img/1920-1.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: 
+tag_img: /img/xj7.webp
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
 tag_per_img:
-
+  # - index: /img/xj1
+  #  node: /img/xj2
+  #  uni-app: /img/xj3
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: 
+category_img: /img/xj8.webp
+
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
 category_per_img:
-
+   vue: /img/xj4
+   node: /img/xj2
+   uni-app: /img/xj3
 cover:
   # display the cover or not (是否顯示文章封面)
   index_enable: true
@@ -152,7 +157,7 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -892,14 +897,15 @@ css_prefix: true
 inject:
   head:
      - <link rel="stylesheet" href="https://npm.elemecdn.com/ethan4116-blog/lib/css/plane_v2.css">
-  
-     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
+    #  - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.7/tianli_gpt.css">  
+    #  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
      - <link rel="stylesheet" href="/css/navbar.css">
      - <link rel="stylesheet" href="/css/background.css">
      - <link rel="stylesheet" href="/css/art_headerwave.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -978,3 +984,45 @@ CDN:
     # prismjs_autoloader:
     # artalk_js:
     # artalk_css:
+# 首页轮播图
+swiper:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
+  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
+# 贴片
+categoryBar:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  column: odd # odd：3列 | even：4列
+  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
+  message:
+    - descr: vue学习笔记
+      cover: /img/renzu.webp
+    - descr: node小案例
+      cover: /img/chongzu.webp
+    - descr: uniapp项目文档
+      cover: /img/shengzu.webp
+    - descr: 个人日记
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover4.webp
+    - descr: 诗词歌赋
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover5.webp
+    - descr: 杂谈教程
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover6.webp
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
+
+  

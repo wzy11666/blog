@@ -4,6 +4,7 @@ date:
 tags: vue2
 categories: vue
 cover: ../img/vue.png
+swiper_index: 3 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 

@@ -4,6 +4,7 @@ date:
 tags: vue2
 categories: vue
 cover: ../img/webpack.webp
+# swiper_index: 8 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 ### webpack的基本使用

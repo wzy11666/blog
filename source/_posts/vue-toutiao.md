@@ -4,6 +4,7 @@ date:
 tags: vue2
 categories: vue
 cover: ../img/vue.png
+# swiper_index: 7 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 ### 1.建立项目
 
