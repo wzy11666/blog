@@ -4,6 +4,10 @@ date:
 tags: vue2
 categories: vue
 cover: ../img/vue.png
+description: assets 文件夹：存放项目中用到的静态资源文件，例如：css 样式表、图片资源
+              components 文件夹：程序员封装的、可复用的组件，都要放到 components 目录下
+              main.js 是项目的入口文件。整个项目的运行，要先执行 main.js
+              App.vue 是项目的根组件。
 swiper_index: 3 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 

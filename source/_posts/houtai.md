@@ -4,6 +4,12 @@ date:
 tags: vue2
 categories: vue
 cover: ../img/vuejs.webp
+description: 1. 项目搭建+使用element实现首页布局
+            2. 顶部导航菜单及与左侧导航联动的面包屑实现
+            3. 封装一个ECharts组件 
+            4. 封装一个Form表单组件和Table表格组件 
+            5. 企业开发之权限管理思路
+
 swiper_index: 5 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
