@@ -1,6 +1,6 @@
 ---
 title: 学习微信小程序--小程序商城项目
-date: 
+date: 2023/5/20
 tags: uni-app
 categories: uni-app
 cover: ../img/xiaochengxu.webp

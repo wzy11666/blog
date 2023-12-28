@@ -1,6 +1,6 @@
 ---
 title: 学习vue--webpack
-date: 
+date: 2022/10/20
 tags: vue2
 categories: vue
 cover: ../img/newwebpack.webp

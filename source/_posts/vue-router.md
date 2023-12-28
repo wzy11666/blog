@@ -1,6 +1,6 @@
 ---
 title: 学习vue--vue-router路由案例
-date: 
+date: 2022/6/13 20:46:25
 tags: vue2
 categories: vue
 cover: ../img/vuerouter.jpg

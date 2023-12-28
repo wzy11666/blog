@@ -1,6 +1,6 @@
 ---
 title: 学习vue--后台管理项目
-date: 
+date: 2022/12/20
 tags: vue2
 categories: vue
 cover: ../img/vuejs.webp

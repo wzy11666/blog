@@ -1,6 +1,6 @@
 ---
 title: 学习vue--vue-黑马头条案例
-date: 
+date: 2022/8/20
 tags: vue2
 categories: vue
 cover: ../img/vue.png
